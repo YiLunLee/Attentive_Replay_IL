@@ -3,7 +3,7 @@ Official PyTorch implementaton of IEEE SMC 2023 paper "[Data Efficient Increment
 You can visit our project website [here](https://yilunlee.github.io/Attentive_Replay_IL/).
 
 ## Introduction
-lass-incremental learning (CIL) tackles the problem of continuously optimizing a classification model to support growing number of classes, where the data of novel classes arrive in streams. Recent works propose to use representative exemplars of learnt classes, and replay the knowledge of them afterward under certain memory constraints. However, training on a fixed set of exemplars with an imbalanced proportion to the new data leads to strong biases in the trained models.
+Class-incremental learning (CIL) tackles the problem of continuously optimizing a classification model to support growing number of classes, where the data of novel classes arrive in streams. Recent works propose to use representative exemplars of learnt classes, and replay the knowledge of them afterward under certain memory constraints. However, training on a fixed set of exemplars with an imbalanced proportion to the new data leads to strong biases in the trained models.
 In this paper, we propose an attentive knowledge replay framework to refresh the knowledge of previously learnt classes during incremental learning, which generates virtual training samples by blending between pairs of data. Particularly, we design an attention module that learns to predict the adaptive blending weights in accordance with their relative importance to the overall objective, where the importance is derived from the change of the image features over incremental phases. Our strategy of attentive knowledge replay encourages the model to learn smoother decision boundaries and thus improves its generalization beyond memorizing the exemplars. We validate our design in a standard class-incremental learning setup and demonstrate its flexibility in various settings.
 
 <div align="center">
@@ -11,25 +11,32 @@ In this paper, we propose an attentive knowledge replay framework to refresh the
 </div>
 
 ## Usage
+To Do
+
 ### Enviroment
+To Do
+
 #### Prerequisites
+To Do
+
 #### Other requirements
 ```
-
+# To Do
 ```
 
 ### Prepare Dataset
-
+To Do
 
 ### Evaluation
 ```
- 
+# To Do
 ```
 
 ### Train
-1. 
-```
+To Do
 
+```
+# To Do
 ```
 
 
